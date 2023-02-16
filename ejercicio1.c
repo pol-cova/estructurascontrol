@@ -13,7 +13,7 @@ int main() {
 
     setlocale(LC_CTYPE, "SPANISH");
 
-    // Iniciamos declarando las variables que usare, las cuales son la base y altura del rectángulo.
+    // Iniciamos declarando las variables que usaré, las cuales son la base y altura del rectángulo.
     float base, altura, diagonal, sumaCuadrados;
 
     // Imprimimos la información y solicitamos los datos.
@@ -25,9 +25,9 @@ int main() {
     scanf("%f", &altura);
 
     /*
-     * Use formulas separadas para entender mejor el proceso, la variable suma del cuadrado, hace la suma
-     * entre los cuadrados de la base y la altura, esto en funcion del teorema de Pitágoras, y la variable
-     * diagonal adopta el valor de la raiz de la suma de los cuadrados.
+     * Use fórmulas separadas para entender mejor el proceso, la variable suma del cuadrado, hace la suma
+     * entre los cuadrados de la base y la altura, esto en función del teorema de Pitágoras, y la variable
+     * diagonal adopta el valor de la raíz de la suma de los cuadrados.
      */
     sumaCuadrados = (base*base) + (altura*altura);
     diagonal = sqrtf(sumaCuadrados);

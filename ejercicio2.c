@@ -26,6 +26,7 @@ int main()
     printf("Ingrese el número 2: ");
     scanf("%f", &num2);
 
+    // Este valor es equivalente a la sustitución en la fórmula general de las sumas de cuadrados
     sumaCuadrados = (num1 * num1) + 2*(num1 * num2) + (num2 * num2);
 
     // Imprimimos el valor de la suma.

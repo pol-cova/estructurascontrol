@@ -99,6 +99,161 @@ build ej2: C_EXECUTABLE_LINKER__ej2_Debug CMakeFiles/ej2.dir/ejercicio2.c.o
   TARGET_FILE = ej2
   TARGET_PDB = ej2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ej3
+
+
+#############################################
+# Order-only phony target for ej3
+
+build cmake_object_order_depends_target_ej3: phony || CMakeFiles/ej3.dir
+
+build CMakeFiles/ej3.dir/ejercicio3.c.o: C_COMPILER__ej3_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio3.c || cmake_object_order_depends_target_ej3
+  DEP_FILE = CMakeFiles/ej3.dir/ejercicio3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej3.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej3
+
+
+#############################################
+# Link the executable ej3
+
+build ej3: C_EXECUTABLE_LINKER__ej3_Debug CMakeFiles/ej3.dir/ejercicio3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej3
+  TARGET_PDB = ej3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ej4
+
+
+#############################################
+# Order-only phony target for ej4
+
+build cmake_object_order_depends_target_ej4: phony || CMakeFiles/ej4.dir
+
+build CMakeFiles/ej4.dir/ejercicio4.c.o: C_COMPILER__ej4_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio4.c || cmake_object_order_depends_target_ej4
+  DEP_FILE = CMakeFiles/ej4.dir/ejercicio4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej4.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej4
+
+
+#############################################
+# Link the executable ej4
+
+build ej4: C_EXECUTABLE_LINKER__ej4_Debug CMakeFiles/ej4.dir/ejercicio4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej4
+  TARGET_PDB = ej4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ej5
+
+
+#############################################
+# Order-only phony target for ej5
+
+build cmake_object_order_depends_target_ej5: phony || CMakeFiles/ej5.dir
+
+build CMakeFiles/ej5.dir/ejercicio5.c.o: C_COMPILER__ej5_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio5.c || cmake_object_order_depends_target_ej5
+  DEP_FILE = CMakeFiles/ej5.dir/ejercicio5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej5.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej5
+
+
+#############################################
+# Link the executable ej5
+
+build ej5: C_EXECUTABLE_LINKER__ej5_Debug CMakeFiles/ej5.dir/ejercicio5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej5
+  TARGET_PDB = ej5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ej6
+
+
+#############################################
+# Order-only phony target for ej6
+
+build cmake_object_order_depends_target_ej6: phony || CMakeFiles/ej6.dir
+
+build CMakeFiles/ej6.dir/ejercicio6.c.o: C_COMPILER__ej6_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio6.c || cmake_object_order_depends_target_ej6
+  DEP_FILE = CMakeFiles/ej6.dir/ejercicio6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej6.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej6
+
+
+#############################################
+# Link the executable ej6
+
+build ej6: C_EXECUTABLE_LINKER__ej6_Debug CMakeFiles/ej6.dir/ejercicio6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej6
+  TARGET_PDB = ej6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ej7
+
+
+#############################################
+# Order-only phony target for ej7
+
+build cmake_object_order_depends_target_ej7: phony || CMakeFiles/ej7.dir
+
+build CMakeFiles/ej7.dir/ejercicio7.c.o: C_COMPILER__ej7_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio7.c || cmake_object_order_depends_target_ej7
+  DEP_FILE = CMakeFiles/ej7.dir/ejercicio7.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej7.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej7
+
+
+#############################################
+# Link the executable ej7
+
+build ej7: C_EXECUTABLE_LINKER__ej7_Debug CMakeFiles/ej7.dir/ejercicio7.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej7
+  TARGET_PDB = ej7.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -133,7 +288,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug
 
-build all: phony ej1 ej2
+build all: phony ej1 ej2 ej3 ej4 ej5 ej6 ej7
 
 # =============================================================================
 # Built-in targets
