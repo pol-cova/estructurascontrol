@@ -3,7 +3,7 @@
 ###### Programación estructurada
 
 *** 
-Todos los archivos .c del arbolito estan en este repositorio.
+Todos los archivos .c de los ejercicios de las estructuras de control secuenciales estan en este repositorio.
 ***
 
 ## Release Notes
