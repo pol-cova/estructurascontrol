@@ -1,3 +1,4 @@
 /Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug/CMakeFiles/ej1.dir
+/Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug/CMakeFiles/ej2.dir
 /Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug/CMakeFiles/rebuild_cache.dir

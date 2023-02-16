@@ -68,6 +68,37 @@ build ej1: C_EXECUTABLE_LINKER__ej1_Debug CMakeFiles/ej1.dir/ejercicio1.c.o
   TARGET_FILE = ej1
   TARGET_PDB = ej1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ej2
+
+
+#############################################
+# Order-only phony target for ej2
+
+build cmake_object_order_depends_target_ej2: phony || CMakeFiles/ej2.dir
+
+build CMakeFiles/ej2.dir/ejercicio2.c.o: C_COMPILER__ej2_Debug /Users/paulcontreras/Documents/GitHub/estructurascontrol/ejercicio2.c || cmake_object_order_depends_target_ej2
+  DEP_FILE = CMakeFiles/ej2.dir/ejercicio2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/ej2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ej2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ej2
+
+
+#############################################
+# Link the executable ej2
+
+build ej2: C_EXECUTABLE_LINKER__ej2_Debug CMakeFiles/ej2.dir/ejercicio2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ej2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ej2
+  TARGET_PDB = ej2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -102,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/paulcontreras/Documents/GitHub/estructurascontrol/cmake-build-debug
 
-build all: phony ej1
+build all: phony ej1 ej2
 
 # =============================================================================
 # Built-in targets

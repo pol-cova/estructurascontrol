@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "estructurascontrol",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "ej1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ej1-Debug-bd57ff0c9caf0cfa923c.json",
 					"name" : "ej1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ej2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej2-Debug-c39f5b1f29be446126ba.json",
+					"name" : "ej2",
 					"projectIndex" : 0
 				}
 			]
