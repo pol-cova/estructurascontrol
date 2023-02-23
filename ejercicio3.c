@@ -31,4 +31,6 @@ int main()
     // Imprimimos el valor de los grados fahrenheit.
     printf("%.2f grados Celsius equivalen a %.3f grados Fahrenheit", gradC, gradF);
     system("pause");
+    
+    return 0;
 }

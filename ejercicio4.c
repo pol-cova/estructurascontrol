@@ -36,6 +36,4 @@ int main()
     printf("En una semana hay: %d segundos \n", semana);
 
     system("pause");
-
-    return 0;
 }

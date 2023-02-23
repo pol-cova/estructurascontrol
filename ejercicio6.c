@@ -33,6 +33,4 @@ int main()
     printf("%f pulgadas equivalen a %f centimetros",pulgadas, centimetros);
 
     system("pause");
-
-    return 0;
 }
