@@ -18,7 +18,7 @@ int main()
     setlocale(LC_CTYPE, "SPANISH");
 
     // Las variables a usar solo son 3, el ángulo, seno, y coseno
-    double angulo, senAng, cosAng, senDeg, cosDeg;
+    double angulo, senAng, cosAng;
 
     // Imprimimos la información y solicitamos los datos.
     printf("Bienvenido a la calculadora trigonometrica!\n");
@@ -35,5 +35,7 @@ int main()
     printf("El coseno de %lfº es = %lf radianes \n",angulo, cosAng);
 
     system("pause");
+    
+    return 0;
 }
 
