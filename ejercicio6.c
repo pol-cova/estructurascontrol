@@ -17,11 +17,11 @@ int main()
 
     // Definimos una constante que se llama factor de conversion la cual representa que 2.54 cm equivalen a una pulgada
     const float factorConversion = 2.54;
-    // Las variables a usar solo son 2, las pulgadas y los centimetros
+    // Las variables a usar solo son 2, las pulgadas y los centímetros
     float pulgadas, centimetros;
 
     // Imprimimos la información y solicitamos los datos.
-    printf("Bienvenido al convertidor de pulgadas a centimetros!\n");
+    printf("Bienvenido al convertidor de pulgadas a centímetros!\n");
     printf("Ingrese la cantidad de pulgadas: ");
     scanf("%f", &pulgadas);
 
@@ -29,8 +29,8 @@ int main()
 
     centimetros = pulgadas * factorConversion;
 
-    // Retornamos el valor de los centimetros.
-    printf("%f pulgadas equivalen a %f centimetros",pulgadas, centimetros);
+    // Retornamos el valor de los centímetros.
+    printf("%f pulgadas equivalen a %f centímetros",pulgadas, centimetros);
 
     system("pause");
 }
