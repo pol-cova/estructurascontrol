@@ -36,5 +36,7 @@ int main()
     printf("El volumen de la esfera de radio %.2f es: %f",radio, volumen);
 
     system("pause");
+    
+    return 0;
 
 }
