@@ -28,12 +28,14 @@ int main()
     semana = 7 * dia;
 
     // Imprimimos la información y los valores de las fórmulas.
-    printf("Bienvenido a la tabla de conversion de tiempo!\n");
+    printf("Bienvenido a la tabla de conversión de tiempo!\n");
     printf("___________________________________________\n");
     printf("En un minuto hay: %d segundos \n", minuto);
     printf("En una hora hay: %d segundos \n", hora);
-    printf("En un dia hay: %d segundos \n", dia);
+    printf("En un día hay: %d segundos \n", dia);
     printf("En una semana hay: %d segundos \n", semana);
 
     system("pause");
+    
+    return 0;
 }
